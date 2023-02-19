@@ -71,19 +71,19 @@ const Footer = () => {
             <div className='mx-auto'  style={styles.column}>
                 <h2 className='font-medium uppercase ' style={styles.h2}>Some Links</h2>
                 <ul style={styles.ul}>
-                    <li style={styles.li}>
+                    <li className='px-10' style={styles.li}>
                         <Link to="/" style={styles.a}>Home</Link>
                     </li>
-                    <li style={styles.li}>
+                    <li className='px-10' style={styles.li}>
                         <Link to="/shop" style={styles.a}>Shop</Link>
                     </li>
-                    <li style={styles.li}>
+                    <li className='px-10' style={styles.li}>
                         <Link to="/blog" style={styles.a}>Blogs</Link>
                     </li>
-                    <li style={styles.li}>
+                    <li className='px-10' style={styles.li}>
                         <Link to="/about" style={styles.a}>About</Link>
                     </li>
-                    <li style={styles.li}>
+                    <li className='px-10' style={styles.li}>
                         <Link to="/sale" style={styles.a}>Sales</Link>
                     </li>
                 </ul>
@@ -92,19 +92,19 @@ const Footer = () => {
             <div style={styles.column}>
                 <h2 className='font-medium uppercase' style={styles.h2}>Extra Links</h2>
                 <ul style={styles.ul}>
-                    <li style={styles.li}>
+                    <li className='px-10' style={styles.li}>
                         <Link to="/contact" style={styles.a}>Contact</Link>
                     </li>
-                    <li style={styles.li}>
+                    <li className='px-10' style={styles.li}>
                         <Link to="/gift" style={styles.a}>Gifts</Link>
                     </li>
-                    <li style={styles.li}>
+                    <li className='px-10' style={styles.li}>
                         <Link to="/signIn" style={styles.a}>Sign In</Link>
                     </li>
-                    <li style={styles.li}>
+                    <li className='px-10' style={styles.li}>
                         <Link to="/cart" style={styles.a}>Cart</Link>
                     </li>
-                    <li style={styles.li}>
+                    <li className='px-10' style={styles.li}>
                         <Link to="/register" style={styles.a}>Register</Link>
                     </li>
                 </ul>
@@ -113,11 +113,11 @@ const Footer = () => {
             <div style={styles.column}>
                 <h2 className='font-medium uppercase' style={styles.h2}>Our Locations</h2>
                 <ul style={styles.ul}>
-                    <li style={styles.li}>Phnom Penh</li>
-                    <li style={styles.li}>Siem Reap</li>
-                    <li style={styles.li}>Takeo</li>
-                    <li style={styles.li}>Battambang</li>
-                    <li style={styles.li}>Knal</li>
+                    <li className='px-10' style={styles.li}>Phnom Penh</li>
+                    <li className='px-10' style={styles.li}>Siem Reap</li>
+                    <li className='px-10' style={styles.li}>Takeo</li>
+                    <li className='px-10' style={styles.li}>Battambang</li>
+                    <li className='px-10' style={styles.li}>Knal</li>
                 </ul>
             </div>
             <div style={styles.column}>

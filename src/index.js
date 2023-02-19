@@ -1,4 +1,5 @@
 import React from 'react';
+import useState from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
@@ -11,19 +12,17 @@ import Gift from './pages/Gift';
 import SignIn from './pages/SignIn';
 import Register from './pages/Register';
 import Cart from './pages/Cart';
+import Home from './pages/Home';
 import Productdetail from './pages/Productdetail';
 // Import Swiper styles
 import 'swiper/swiper-bundle.css';
 import "swiper/swiper.min.css";
-//
-
-//import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
     <Routes>
-      <Route path='/' element={<App />}></Route>
+      <Route path='/' element={<Home />}></Route>
       <Route path='/about' element={<About />}></Route>
       <Route path='/shop' element={<Shop />}></Route>
       <Route path='/blog' element={<Blogs />}></Route>
@@ -33,6 +32,7 @@ root.render(
       <Route path='/register' element={<Register />}></Route>
       <Route path='/cart' element={<Cart />}></Route>
       <Route path='/proDetail' element={<Productdetail />}></Route>
+      <Route path='/api/user' element={<Shop />}></Route>
     </Routes>
   </Router>
 );

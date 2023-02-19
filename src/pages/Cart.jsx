@@ -112,7 +112,7 @@ const Cart = () => {
                 </div>
                 <form action="" >
                     <div className='mb-5'>
-                        <p className='uppercase mb-5' style={styles.chhead}>shipping</p>
+                        <p className='uppercase mb-5' style={styles.chhead}>payment methods</p>
                         <select name="shipping" id="shipping" className='w-full' style={styles.input}>
                             <option value="" disabled>ABA BANK</option>
                             <option value="aba">ABA BANK</option>

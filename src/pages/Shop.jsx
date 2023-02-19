@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
@@ -26,6 +26,17 @@ const styles = {
 }
 
 const Shop = () => {
+  const [userData, setUserdata] = useState([]);
+
+  useEffect( ()=> {
+      const getUserdata = async()=>{
+        const reqData = await fetch("http://localhost:3000/api/user");
+        const resData = await reqData.json();
+        setUserdata(resData);
+        console.log(resData);
+      }
+  },[]);
+
   return (
     <div>
       <Navbar />
