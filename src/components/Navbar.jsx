@@ -35,11 +35,14 @@ const Navbar = () => {
         </div>
         <div className='flex mr-12'>
             <Link to="/gift" className='px-5' style={styles.Navlink}>Gifts</Link>
-            <p className='px-6' style={styles.Navlink}>Eng</p>
-            <PersonOutlineOutlined to="/signIn" sx={{ fontSize: "24px", mx: 2 }}/>
-            <Badge badgeContent={4} color="primary" >
-                <ShoppingBasketOutlined color="action" sx={{ fontSize: "24px" }}/>
-            </Badge>
+            <Link to="/signIn">
+                <PersonOutlineOutlined  sx={{ fontSize: "24px", mx: 2 }}/>
+            </Link>
+            <Link to="/cart">
+                <Badge badgeContent={4} color="primary" >
+                    <ShoppingBasketOutlined color="action" sx={{ fontSize: "24px" }}/>
+                </Badge>
+            </Link>
         </div>
     </div>
   )
